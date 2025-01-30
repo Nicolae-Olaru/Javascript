@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Data format -->
+        <meta charset="UTF-8">
+        <!-- /////////////////////////////////////////////////////// -->
+
+        <!-- Title -->
+        <title> Learning JS </title> 
+        <!-- /////////////////////////////////////////////////////// -->
+        
+        <!-- Including file Javascript -->
+        <script src="script.js"></script>
+        <!-- /////////////////////////////////////////////////////// -->
+        
+        <!-- Including icon into title page -->
+        <link rel="icon" type="img/png" href="img/ico-js.png">
+        <!-- /////////////////////////////////////////////////////// -->
+
+
+    </head>
+
+
+
+
+    <body>
+        <!-- Button call Javascript to change information message -->
+        <h1> Javascript is fantastic </h1>
+        <p id="text-to-change"> Are you ready to change me? </p>
+        <button type="button" onclick="show_Message()">   Change!   </button>
+        <button type="button" onclick="show_Message_Back()">   Back!   </button>
+        <!-- /////////////////////////////////////////////////////// -->
+    </br>
+        <!-- Button call Javascript to change information img when button is pressed -->
+        <button type="button" onclick="document.getElementById('myImage').src='img/on.png'">  Turn ON Light !   </button>
+        <img id="myImage" src="img/off.png" style="width:100px">
+        <button type="button" onclick="document.getElementById('myImage').src='img/off.png'">  Turn OFF Light !   </button>
+        <!-- /////////////////////////////////////////////////////// -->
+    </br>
+    </br>
+    <p id="text-to-disapper"> Now you se mee! </p>
+    <button type="button" onclick="Disaper_Message()">   Disapper!   </button>
+    <button type="button" onclick="Apper_Message_Back()">   Apper!   </button>
+
+    </body>
+</html>
